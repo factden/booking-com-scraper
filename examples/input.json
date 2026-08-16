@@ -1,0 +1,11 @@
+{
+  "searchLocation": ["Rome"],
+  "startUrls": ["https://www.booking.com/hotel/fr/le-meurice.html"],
+  "includePrices": true,
+  "includeReviews": true,
+  "includeAvailabilityCalendar": false,
+  "maxResults": 25,
+  "maxReviews": 100,
+  "currency": "USD",
+  "language": "en-us"
+}

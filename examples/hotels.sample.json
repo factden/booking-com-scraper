@@ -1,0 +1,20 @@
+[
+  {
+    "hotelId": 55361,
+    "hotelName": "Hotel Le Meurice",
+    "city": "Nice",
+    "country": "France",
+    "stars": 3,
+    "reviewScore": 8.6,
+    "reviewCount": 497,
+    "currency": "USD",
+    "perNightPrice": 330.58,
+    "grossPrice": 330.58,
+    "availableRooms": 2,
+    "scarcityMessage": "We have 2 left",
+    "rooms": [
+      { "roomName": "Junior Suite", "pricePerNight": 330.58, "priceTotal": 330.58, "mealPlan": "Continental breakfast costs $20 per person per night.", "breakfastIncluded": false, "refundable": false, "maxOccupancy": "2", "roomSurfaceM2": 20 }
+    ],
+    "url": "https://www.booking.com/hotel/fr/le-meurice.html"
+  }
+]
