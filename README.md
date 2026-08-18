@@ -5,6 +5,10 @@
 
 Scrape **Booking.com** hotels at scale — **reviews**, **prices**, per-room **rates**, **availability & occupancy**, and a forward **availability calendar**. Search a city or country, name an exact hotel, or paste Booking.com links. Output is clean **JSON / CSV / Excel**.
 
+**Watch the walkthrough:**
+
+[![Booking.com Scraper walkthrough — hotels, prices, reviews and availability](https://img.youtube.com/vi/mxaye6x1E8U/maxresdefault.jpg)](https://www.youtube.com/watch?v=mxaye6x1E8U)
+
 <a href="https://apify.com/factden/booking-com-scraper?fpr=factden" rel="sponsored noopener"><img src="https://raw.githubusercontent.com/factden/apify-actor-assets/main/booking-com-scraper/02-hotels-overview.png" alt="Booking.com Scraper output — hotels with prices, scores and occupancy"></a>
 
 > Runs on the [Apify platform](https://apify.com/factden/booking-com-scraper?fpr=factden): API, scheduling, proxy rotation, storage, and integrations (Make, Zapier, n8n, Google Sheets). New accounts get free monthly usage credit.
