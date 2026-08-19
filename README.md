@@ -88,6 +88,8 @@ Pay-per-result, no start fee: Hotel $3 / 1k, Prices $5 / 1k, Review $1 / 1k, Cal
 - [Ctrip / Trip.com Reviews Scraper](https://apify.com/factden/ctrip-trip-reviews-scraper?fpr=factden) ([docs](https://github.com/factden/ctrip-trip-reviews-scraper))
 - [Agoda Hotel Reviews Scraper](https://apify.com/factden/agoda-hotel-reviews-scraper?fpr=factden)
 - [TripAdvisor Hotel Reviews](https://apify.com/factden/tripadvisor-hotel-reviews-api?fpr=factden)
+- [MakeMyTrip & Goibibo Reviews Scraper](https://apify.com/factden/makemytrip-scraper?fpr=factden) ([docs](https://github.com/factden/makemytrip-scraper))
+- [Airbnb Data Scraper](https://apify.com/factden/airbnb-data-scraper?fpr=factden) ([docs](https://github.com/factden/airbnb-data-scraper))
 
 [All FactDen actors →](https://apify.com/factden?fpr=factden)
 
