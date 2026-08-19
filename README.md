@@ -57,6 +57,8 @@ One flat row per hotel (default dataset), one row per review (`reviews`), one pe
 - [`examples/hotels.sample.json`](./examples/hotels.sample.json)
 - [`examples/reviews.sample.json`](./examples/reviews.sample.json)
 
+![Availability calendar — one row per forward day with date, availability and minimum price](https://raw.githubusercontent.com/factden/apify-actor-assets/main/booking-com-scraper/06-calendar.png)
+
 ## Use cases
 
 - **Rate shopping / comp-set pricing** — schedule daily runs on a hotel list or city.
@@ -66,7 +68,7 @@ One flat row per hotel (default dataset), one row per review (`reviews`), one pe
 
 ## Cost
 
-Pay-per-result, no start fee: Hotel $4 / 1k, Prices $5 / 1k, Review $1 / 1k, Calendar day $0.50 / 1k. A "50 hotels + 20 reviews each" run is well under a dollar. New Apify accounts get free monthly credit.
+Pay-per-result, no start fee: Hotel $3 / 1k, Prices $5 / 1k, Review $1 / 1k, Calendar day $0.50 / 1k. A "50 hotels + 20 reviews each" run is well under a dollar. New Apify accounts get free monthly credit.
 
 ## FAQ
 
