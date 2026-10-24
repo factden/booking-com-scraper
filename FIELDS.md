@@ -28,7 +28,7 @@
 | scrapedAt | string | ISO-8601 UTC timestamp |
 
 ### Rooms & rates (each entry in `rooms[]`)
-`roomName`, `rateName`, `pricePerNight`, `priceTotal`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`.
+`checkInDate`, `checkOutDate`, `available` (bool), `roomName`, `rateName`, `perNight`, `total`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`, `roomId`. With `priceWindowEnd` set, there is one entry per room × rate plan **per check-in date**; a date with no availability appears once with `available: false`.
 
 ## Reviews dataset
 

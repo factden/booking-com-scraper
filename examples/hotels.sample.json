@@ -13,7 +13,7 @@
     "availableRooms": 2,
     "scarcityMessage": "We have 2 left",
     "rooms": [
-      { "roomName": "Junior Suite", "pricePerNight": 330.58, "priceTotal": 330.58, "mealPlan": "Continental breakfast costs $20 per person per night.", "breakfastIncluded": false, "refundable": false, "maxOccupancy": "2", "roomSurfaceM2": 20 }
+      { "checkInDate": "2026-07-01", "checkOutDate": "2026-07-02", "available": true, "roomName": "Junior Suite", "rateName": "Junior Suite - non-refundable", "perNight": 330.58, "total": 330.58, "currency": "EUR", "mealPlan": "Continental breakfast costs $20 per person per night.", "breakfastIncluded": false, "refundable": false, "maxOccupancy": "2", "roomSurfaceM2": 20 }
     ],
     "url": "https://www.booking.com/hotel/fr/le-meurice.html"
   }
