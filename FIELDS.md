@@ -28,7 +28,7 @@
 | scrapedAt | string | ISO-8601 UTC timestamp |
 
 ### Rooms & rates (each entry in `rooms[]`)
-`checkInDate`, `checkOutDate`, `available` (bool), `roomName`, `rateName`, `perNight`, `total`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`, `roomId`. With `priceWindowEnd` set, there is one entry per room × rate plan **per check-in date**; a date with no availability appears once with `available: false`.
+`source`, `checkInDate`, `checkOutDate`, `available` (bool), `roomName`, `rateName`, `perNight`, `total`, `strikethrough`, `strikethroughPerNight`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`, `roomId`. `source` is `Booking.com` for a direct rate or the supplier name for a **partner offer** (the top third-party rates, often the cheapest). `strikethrough` is the pre-discount price (null when no discount). With `priceWindowEnd` set, there is one entry per room × rate plan **per check-in date**; a date with no availability appears once with `available: false`.
 
 ## Reviews dataset
 
