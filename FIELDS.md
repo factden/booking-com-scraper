@@ -28,7 +28,7 @@
 | scrapedAt | string | ISO-8601 UTC timestamp |
 
 ### Rooms & rates (each entry in `rooms[]`)
-`source`, `checkInDate`, `checkOutDate`, `available` (bool), `roomName`, `rateName`, `perNight`, `total`, `strikethrough`, `strikethroughPerNight`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`, `roomId`. `source` is `Booking.com` for a direct rate or the supplier name for a **partner offer** (the top third-party rates, often the cheapest). `strikethrough` is the pre-discount price (null when no discount). With `priceWindowEnd` set, there is one entry per room × rate plan **per check-in date**; a date with no availability appears once with `available: false`.
+`source`, `partner` (bool), `supplierId`, `checkInDate`, `checkOutDate`, `available` (bool), `roomsLeft`, `roomName`, `rateName`, `perNight`, `total`, `strikethrough`, `strikethroughPerNight`, `currency`, `mealPlan`, `breakfastIncluded` (bool), `refundable` (bool), `freeCancellationUntil`, `maxOccupancy`, `roomSurfaceM2`, `geniusDiscountPct`, `roomId`. `source` is `Booking.com` for a direct rate or the supplier name for a **partner offer**; `partner` is `true` for partner offers (`supplierId` = the partner's Booking supplier id, `roomsLeft` = rooms remaining). A partner offer's supplier can be a third party or the hotel's own channel, so `source` may be the hotel name. `strikethrough` is the pre-discount price (null when no discount). With `priceWindowEnd` set, there is one entry per room × rate plan **per check-in date**; a date with no availability appears once with `available: false`.
 
 ## Reviews dataset
 

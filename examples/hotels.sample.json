@@ -13,8 +13,8 @@
     "availableRooms": 2,
     "scarcityMessage": "We have 2 left",
     "rooms": [
-      { "source": "Booking.com", "checkInDate": "2026-07-01", "checkOutDate": "2026-07-02", "available": true, "roomName": "Junior Suite", "rateName": "Junior Suite - non-refundable", "perNight": 330.58, "total": 330.58, "strikethrough": 400.00, "strikethroughPerNight": 400.00, "currency": "EUR", "mealPlan": "Continental breakfast costs $20 per person per night.", "breakfastIncluded": false, "refundable": false, "maxOccupancy": "2", "roomSurfaceM2": 20 },
-      { "source": "UNITRIP INTERNATIONAL PTE. LIMITED", "checkInDate": "2026-07-01", "checkOutDate": "2026-07-02", "available": true, "roomName": "Junior Suite", "rateName": null, "perNight": 305.00, "total": 305.00, "strikethrough": null, "strikethroughPerNight": null, "currency": "EUR", "mealPlan": "Breakfast included", "breakfastIncluded": true, "refundable": null, "maxOccupancy": 2, "roomSurfaceM2": 20 }
+      { "source": "Booking.com", "partner": false, "supplierId": null, "checkInDate": "2026-07-01", "checkOutDate": "2026-07-02", "available": true, "roomsLeft": null, "roomName": "Junior Suite", "rateName": "Junior Suite - non-refundable", "perNight": 330.58, "total": 330.58, "strikethrough": 400.00, "strikethroughPerNight": 400.00, "currency": "EUR", "mealPlan": "Continental breakfast costs $20 per person per night.", "breakfastIncluded": false, "refundable": false, "maxOccupancy": "2", "roomSurfaceM2": 20 },
+      { "source": "UNITRIP INTERNATIONAL PTE. LIMITED", "partner": true, "supplierId": 27926, "checkInDate": "2026-07-01", "checkOutDate": "2026-07-02", "available": true, "roomsLeft": 1, "roomName": "Junior Suite", "rateName": null, "perNight": 305.00, "total": 305.00, "strikethrough": null, "strikethroughPerNight": null, "currency": "EUR", "mealPlan": "Breakfast included", "breakfastIncluded": true, "refundable": null, "maxOccupancy": 2, "roomSurfaceM2": 20 }
     ],
     "url": "https://www.booking.com/hotel/fr/le-meurice.html"
   }
